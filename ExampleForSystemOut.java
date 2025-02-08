@@ -9,3 +9,7 @@ class ExampleForSystemOut
 	}
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Test
