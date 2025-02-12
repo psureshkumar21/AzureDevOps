@@ -29,6 +29,11 @@ class ArithmeticOperations1
 		int c =a/b;
 		System.out.println("Divison result is:"+c);
 	}
+	void modulus(int a, int b)
+	{	
+		int c =a%b;
+		System.out.println("Divison result is:"+c);
+	}
 
 }
 
@@ -47,6 +52,7 @@ class ArithmeticOperations
 		obj1.subtraction(a,b);
 		obj1.multiplication(a,b);
 		obj1.divison(a,b);
+		obj1.modulus(a,b);
 	}
 	
 }
