@@ -1,0 +1,39 @@
+Input function:
+ 
+
+Read the data from the keyboard at runtime
+
+Scanner - class - we can read the data from the keyboard - this is available in the util package. import java.util.*;
+(or)
+Buffered Reader - class - this is available in io package. import java.io.*; Using Buffered Reader- we can read data from Keyboard and File also.
+  i. InputStreamRader
+  ii. File Reader
+
+ We can read data from the keyboard and File(And the file should exist)
+
+
+*****
+methods available in Scanner class:
+
+next() - Read String
+nextInt() - Read Integers
+nextFloat()- Read Float
+nextDouble() - Read Double
+
+as these are methods - we should create an object to access these methods. 
+syn to create object: <classname> objectname = new constructor()
+Scanner sc=new Scanner(System.in) - Here Scanner is class name and sc is object and Scanner() is the constructor and System.in - should pass as, we are reading the data from keyboard and it is an io stream.
+
+sc.next(); - to read string
+sc.nextInt(); - to read intege
+sc.nextFloat(); - to read float
+sc.nextDouble(); - to read double
+- Sample program - ReadDataFromKeyBoard
+
+*******
+
+BufferedReader class - Can read data from below
+	*. Keyboard
+	*. File
+
+
